@@ -1,0 +1,158 @@
+/* Global styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333; /* TODO: Replace with Figma text color */
+  background-color: #fff; /* TODO: Replace with Figma background */
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px; /* TODO: adjust per Figma */
+  background-color: #ffffff; /* TODO */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #000; /* TODO */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px; /* TODO */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333; /* TODO */
+  font-weight: 500;
+}
+
+/* Intro Section */
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 80px; /* TODO */
+  background-color: #f5f5f5; /* TODO */
+}
+
+.intro-left {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.intro-heading {
+  font-size: 2.5rem; /* TODO */
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.intro-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.intro-btn {
+  padding: 12px 25px;
+  background-color: #007bff; /* TODO */
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.intro-right {
+  flex: 1;
+  text-align: right;
+}
+
+.intro-img {
+  max-width: 100%;
+  border-radius: 10px; /* TODO */
+}
+
+/* Contact Section */
+.contact {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #fff; /* TODO */
+}
+
+.section-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+input, textarea {
+  width: 300px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+/* remove blue outline */
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #007bff; /* TODO */
+}
+
+.contact-btn {
+  background-color: #007bff; /* TODO */
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Table Section */
+.team {
+  padding: 80px 0;
+  background-color: #f9f9f9; /* TODO */
+  text-align: center;
+}
+
+.team-table {
+  width: 60%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+th, td {
+  border: 1px solid #000;
+  padding: 12px 20px;
+  text-align: center;
+}
+
+thead {
+  background-color: #eaeaea; /* TODO */
+  font-weight: 600;
+}
+
+tfoot td {
+  font-weight: bold;
+  background-color: #f2f2f2; /* TODO */
+}

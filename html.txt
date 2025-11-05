@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Startup Website</title>
+
+  <!-- Google Font: Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Navbar Section -->
+  <nav class="navbar">
+    <div class="logo">StartupLogo</div>
+    <ul class="nav-links">
+      <li><a href="#intro">Home</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#team">Team</a></li>
+    </ul>
+  </nav>
+
+  <!-- Intro Section -->
+  <section id="intro" class="intro">
+    <div class="intro-left">
+      <h1 class="intro-heading">Welcome to Our Startup</h1>
+      <p class="intro-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. 
+        Praesent libero. Sed cursus ante dapibus diam.
+      </p>
+      <button class="intro-btn">Learn More</button>
+    </div>
+    <div class="intro-right">
+      <!-- Replace with the exact image from Figma -->
+      <img src="jeff-bezos.png" alt="Jeff Bezos" class="intro-img" />
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2 class="section-heading">Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="contact-btn">Submit</button>
+    </form>
+  </section>
+
+  <!-- Table Section -->
+  <section id="team" class="team">
+    <h2 class="section-heading">Our Team</h2>
+    <table class="team-table">
+      <thead>
+        <tr>
+          <th>Roll Number</th>
+          <th>Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>101</td>
+          <td>Raj Kamal</td>
+        </tr>
+        <tr>
+          <td>102</td>
+          <td>Pavan Kalyan</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">End of Table</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+
+</body>
+</html>
